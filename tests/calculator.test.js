@@ -16,4 +16,13 @@ describe('Calculator Calculation Functions', function() {
 });
 
 
+
+
 // Add your tests here
+
+describe('Calculator natural log function',function(){
+    const res = calculator.naturalLog(4);
+    it('should return 1.3862943611198906', function() {
+        assert.strictEqual(res, 1.3862943611198906);
+    });
+})
