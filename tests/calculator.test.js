@@ -18,6 +18,7 @@ describe('Calculator Calculation Functions', function() {
 
 
 
+
 // Add your tests here
 
 describe('Calculator natural log function',function(){
@@ -26,3 +27,12 @@ describe('Calculator natural log function',function(){
         assert.strictEqual(res, 1.3862943611198906);
     });
 })
+
+// Add your tests here
+describe('Quaids test', function() {
+    const res = calculator.sine(Math.PI);
+    it('sine of pi is 0', function() {
+        assert.strictEqual(res, 0);
+    });
+});
+
