@@ -23,6 +23,10 @@ function calculateReciprocal() {
 
 // TODO: Implement natural log function
 function naturalLog(value) {
+    if (value <= 0) {
+        return "Invalid input";
+    }
+    return Math.log(value);
     // return the natural log of the value
 }
 
