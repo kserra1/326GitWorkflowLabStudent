@@ -23,7 +23,7 @@ function calculateReciprocal() {
 // TODO: Implement natural log function
 function naturalLog(value) {
     // return the natural log of the value
-}jh
+}
 
 // TODO: Implement sine function
 function sine(value) {
