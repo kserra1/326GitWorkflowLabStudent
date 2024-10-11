@@ -17,6 +17,17 @@ describe('Calculator Calculation Functions', function() {
 
 
 
+
+
+// Add your tests here
+
+describe('Calculator natural log function',function(){
+    const res = calculator.naturalLog(4);
+    it('should return 1.3862943611198906', function() {
+        assert.strictEqual(res, 1.3862943611198906);
+    });
+})
+
 // Add your tests here
 describe('Quaids test', function() {
     const res = calculator.sine(Math.PI);
@@ -24,3 +35,4 @@ describe('Quaids test', function() {
         assert.strictEqual(res, 0);
     });
 });
+
