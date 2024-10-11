@@ -16,4 +16,11 @@ describe('Calculator Calculation Functions', function() {
 });
 
 
+
 // Add your tests here
+describe('Quaids test', function() {
+    const res = calculator.sine(Math.PI);
+    it('sine of pi is 0', function() {
+        assert.strictEqual(res, 0);
+    });
+});
